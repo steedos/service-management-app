@@ -34,5 +34,8 @@
         "**/xmldom": "0.2.1",
         "**/tslib": "1.11.2",
         "**/fibers": "^4.0.3"
+    },
+    "dependencies": {
+        "bcrypt": "3.0.6"
     }
 }

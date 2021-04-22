@@ -1,9 +1,25 @@
 name: all
 columns:
   - field: name
+    wrap: false
+  - field: work_type__c
+    wrap: false
+  - field: request_source__c
+    wrap: false
+  - field: server_class__c
+    wrap: false
+  - field: account__c
+    wrap: false
+  - field: fault_phenomenon__c
+    wrap: false
+  - field: scheme_describe__c
+    wrap: false
+  - field: solve__c
+    wrap: false
 filter_scope: space
 filters: []
 label: 所有
 scrolling_mode: standard
 shared: true
+show_count: false
 type: grid

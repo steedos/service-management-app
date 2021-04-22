@@ -14,4 +14,4 @@ enable_tasks: false
 enable_workflow: true
 icon: work_order
 is_enable: true
-label: 创建工单
+label: 工单

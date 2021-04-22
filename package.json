@@ -4,10 +4,13 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "debug": "nodemon server.js",
-        "start": "node server.js",
         "buildPackage": "steedos package:build -n okr -p steedos-app",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "moleculer-runner services",
+        "start:steedos": "cross-env NODEID=STEEDOS-SERVER moleculer-runner services/steedos-server",
+        "start:app": "cross-env NODEID=STEEDOS-APP moleculer-runner --repl services/steedos-app",
+        "console": "cross-env NODEID=STEEDOS-CONSOLE moleculer connect --config ./moleculer.config.js",
+        "docker": "docker-compose up --build -d"
     },
     "author": "",
     "private": false,
@@ -16,11 +19,21 @@
         "access": "public"
     },
     "devDependencies": {
-        "@steedos/accounts": "^1.23.25",
-        "@steedos/steedos-plugin-workflow": "^2.0.8",
+        "@steedos/service-metadata-server": "^2.0.2",
+        "@steedos/service-mongodb-server": "^2.0.2",
+        "@steedos/service-package-loader": "^2.0.2",
+        "@steedos/service-steedos-server": "^2.0.2",
+        "cross-env": "^7.0.3",
         "dotenv-flow": "^3.1.0",
-        "nodemon": "^1.19.1",
-        "steedos-server": "^1.23.25"
+        "ioredis": "^4.22.0",
+        "moleculer": "^0.14.12",
+        "moleculer-cli": "^0.7.1",
+        "mssql": "5.1.2",
+        "mysql": "2.18.1",
+        "oracledb": "4.0.1",
+        "pg": "7.18.2",
+        "redlock": "^4.2.0",
+        "sqlite3": "4.2.0"
     },
     "homepage": "https://developer.steedos.com",
     "resolutions": {
@@ -33,7 +46,9 @@
         "**/samlp": "3.4.1",
         "**/xmldom": "0.2.1",
         "**/tslib": "1.11.2",
-        "**/fibers": "^4.0.3"
+        "**/fibers": "^4.0.3",
+        "**/cookies": "0.6.2",
+        "**/@babel/runtime": "7.12.0"
     },
     "dependencies": {
         "bcrypt": "3.0.6"

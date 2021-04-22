@@ -29,8 +29,5 @@ tenant:
   enable_mobile_code_login: false
   enable_bind_email: false
   enable_bind_mobile: false
-plugins:
-  - "@steedos/accounts"
-  - "@steedos/metadata-api"
 cron:
   instancerecordqueue_interval: 10000

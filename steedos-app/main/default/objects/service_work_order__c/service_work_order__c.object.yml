@@ -2,7 +2,7 @@ name: service_work_order__c
 custom: true
 enable_api: true
 enable_audit: true
-enable_chatter: false
+enable_chatter: true
 enable_events: false
 enable_files: true
 enable_inline_edit: true
@@ -14,4 +14,4 @@ enable_tasks: false
 enable_workflow: true
 icon: work_order
 is_enable: true
-label: 创建工单
+label: 工单

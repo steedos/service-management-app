@@ -730,7 +730,7 @@
     "@babel/plugin-transform-react-jsx-development" "^7.12.17"
     "@babel/plugin-transform-react-pure-annotations" "^7.12.1"
 
-"@babel/runtime@7.12.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.12.0", "@babel/runtime@^7.12.1", "@babel/runtime@^7.2.0", "@babel/runtime@^7.3.1", "@babel/runtime@^7.5.4", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.0", "@babel/runtime@^7.8.4":
+"@babel/runtime@7.12.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.12.0", "@babel/runtime@^7.12.1", "@babel/runtime@^7.2.0", "@babel/runtime@^7.5.4", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.0", "@babel/runtime@^7.8.4":
   version "7.12.0"
   resolved "https://registry.nlark.com/@babel/runtime/download/@babel/runtime-7.12.0.tgz?cache=0&sync_timestamp=1618960866380&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fruntime%2Fdownload%2F%40babel%2Fruntime-7.12.0.tgz#98bd7666186969c04be893d747cf4a6c6c8fa6b0"
   integrity sha1-mL12ZhhpacBL6JPXR89KbGyPprA=
@@ -7796,20 +7796,6 @@ keygrip@~1.0.1:
   version "1.0.3"
   resolved "https://registry.npm.taobao.org/keygrip/download/keygrip-1.0.3.tgz#399d709f0aed2bab0a059e0cdd3a5023a053e1dc"
   integrity sha1-OZ1wnwrtK6sKBZ4M3TpQI6BT4dw=
-
-keyv@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npm.taobao.org/keyv/download/keyv-3.0.0.tgz#44923ba39e68b12a7cec7df6c3268c031f2ef373"
-  integrity sha1-RJI7o55osSp87H32wyaMAx8u83M=
-  dependencies:
-    json-buffer "3.0.0"
-
-keyv@^3.0.0:
-  version "3.1.0"
-  resolved "https://registry.npm.taobao.org/keyv/download/keyv-3.1.0.tgz#ecc228486f69991e49e9476485a5be1e8fc5c4d9"
-  integrity sha1-7MIoSG9pmR5J6UdkhaW+Ho/FxNk=
-  dependencies:
-    json-buffer "3.0.0"
 
 kind-of@^3.0.2, kind-of@^3.0.3, kind-of@^3.2.0:
   version "3.2.2"

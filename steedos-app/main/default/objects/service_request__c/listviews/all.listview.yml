@@ -16,6 +16,13 @@ columns:
     wrap: false
   - field: created
     wrap: false
+filter_fields:
+  - name
+  - work_type__c
+  - source_for__c
+  - fault_phenomenon__c
+  - account__c
+  - after_service__c
 filter_scope: space
 filters: []
 label: 所有

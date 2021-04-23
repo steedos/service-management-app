@@ -8,7 +8,7 @@ label: 设备信息
 multiple: false
 omit: false
 readonly: false
-reference_to: service_facility__c
+reference_to: service_device__c
 required: false
 searchable: false
 sort_no: 230

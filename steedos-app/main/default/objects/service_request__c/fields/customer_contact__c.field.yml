@@ -1,7 +1,7 @@
 name: customer_contact__c
 data_type: text
 filterable: false
-formula: '"公式"'
+formula: '"联系人姓名"'
 formula_blank_value: blanks
 hidden: false
 index: false

@@ -18,9 +18,14 @@ columns:
     wrap: false
   - field: bill__c
     wrap: false
+filter_fields:
+  - name
+  - offer_details__c
+  - bill__c
 filter_scope: space
 filters: []
 label: 所有
 scrolling_mode: standard
 shared: true
+show_count: false
 type: grid

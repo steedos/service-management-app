@@ -1,8 +1,6 @@
 name: tool_num__c
-data_type: text
 filterable: false
 formula: '1140{00000000}'
-formula_blank_value: zeroes
 hidden: false
 index: false
 is_name: false
@@ -14,4 +12,4 @@ required: false
 searchable: false
 sort_no: 120
 sortable: false
-type: formula
+type: autonumber

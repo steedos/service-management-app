@@ -5,7 +5,6 @@ index: false
 is_name: false
 is_wide: false
 label: 工具名称
-multiple: false
 omit: false
 readonly: false
 reference_to: service_tool__c
@@ -13,4 +12,5 @@ required: false
 searchable: false
 sort_no: 180
 sortable: false
-type: lookup
+type: master_detail
+write_requires_master_read: true

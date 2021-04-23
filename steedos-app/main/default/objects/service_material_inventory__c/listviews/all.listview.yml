@@ -22,6 +22,12 @@ columns:
     wrap: false
   - field: usable__c
     wrap: false
+filter_fields:
+  - name
+  - warehouse__c
+  - warehouse_type__c
+  - material__c
+  - inventory_data__c
 filter_scope: space
 filters: []
 label: 所有

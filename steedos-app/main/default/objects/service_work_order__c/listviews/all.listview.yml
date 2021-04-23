@@ -16,6 +16,15 @@ columns:
     wrap: false
   - field: solve__c
     wrap: false
+filter_fields:
+  - work_type__c
+  - request_source__c
+  - server_class__c
+  - service_area__c
+  - warranty_status__c
+  - fault_phenomenon__c
+  - handler__c
+  - solve__c
 filter_scope: space
 filters: []
 label: 所有

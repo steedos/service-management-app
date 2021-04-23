@@ -4,12 +4,20 @@ columns:
     wrap: false
   - field: state__c
     wrap: false
+  - field: engineer__c
+    wrap: false
   - field: consume_date__c
     wrap: false
-  - field: created_by
+  - field: project__c
     wrap: false
   - field: remark__c
     wrap: false
+filter_fields:
+  - name
+  - engineer__c
+  - consume_date__c
+  - project__c
+  - state__c
 filter_scope: space
 filters: []
 label: 所有

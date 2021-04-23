@@ -1,7 +1,7 @@
 name: contact_phone__c
 data_type: text
 filterable: false
-formula: '"公式"'
+formula: '"136777188888"'
 formula_blank_value: blanks
 hidden: false
 index: false

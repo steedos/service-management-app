@@ -4,8 +4,6 @@ columns:
     wrap: false
   - field: name
     wrap: false
-  - field: product_brand__c
-    wrap: false
   - field: specification__c
     wrap: false
   - field: product_category__c
@@ -24,6 +22,13 @@ columns:
     wrap: false
   - field: remark__c
     wrap: false
+filter_fields:
+  - name
+  - product_category__c
+  - material_type__c
+  - resource_skills__c
+  - brand_name__c
+  - specification__c
 filter_scope: space
 filters: []
 label: 所有

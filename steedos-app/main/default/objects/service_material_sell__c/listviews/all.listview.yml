@@ -16,6 +16,14 @@ columns:
     wrap: false
   - field: remark__c
     wrap: false
+filter_fields:
+  - name
+  - warehouse__c
+  - warehouse_type__c
+  - sell_date__c
+  - sell_type__c
+  - project__c
+  - state__c
 filter_scope: space
 filters: []
 label: 所有

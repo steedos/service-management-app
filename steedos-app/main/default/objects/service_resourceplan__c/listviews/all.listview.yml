@@ -24,6 +24,14 @@ columns:
     wrap: false
   - field: actual_contine__c
     wrap: false
+filter_fields:
+  - resource__c
+  - resource_group__c
+  - client__c
+  - source_statue__c
+  - order__c
+  - order_statue__c
+  - position__c
 filter_scope: space
 filters: []
 label: 所有数据

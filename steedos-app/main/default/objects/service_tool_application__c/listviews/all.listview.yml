@@ -10,9 +10,16 @@ columns:
     wrap: false
   - field: plan_duration__c
     wrap: false
+filter_fields:
+  - name
+  - client__c
+  - tool__c
+  - receiver__c
+  - project__c
 filter_scope: space
 filters: []
 label: 所有
 scrolling_mode: standard
 shared: true
+show_count: false
 type: grid

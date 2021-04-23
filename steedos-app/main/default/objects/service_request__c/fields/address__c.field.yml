@@ -1,7 +1,7 @@
 name: address__c
 data_type: text
 filterable: false
-formula: '"公式"'
+formula: '"黄浦区南京东路"'
 formula_blank_value: blanks
 hidden: false
 index: false

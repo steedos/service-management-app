@@ -1,3 +1,5 @@
 module.exports = {
-    accept: alert('待扩充功能。');
+    accept: function(object_name, record_id, fields) {
+        alert('待扩充功能。');
+    }
 }

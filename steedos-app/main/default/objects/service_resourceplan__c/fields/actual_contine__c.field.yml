@@ -1,7 +1,7 @@
 name: actual_contine__c
 data_type: number
 filterable: false
-formula: (actual_end__c-actual_start__c)*24
+formula: 24
 formula_blank_value: zeroes
 hidden: false
 index: false

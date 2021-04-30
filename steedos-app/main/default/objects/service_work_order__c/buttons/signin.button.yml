@@ -1,0 +1,5 @@
+name: signin
+is_enable: true
+label: 签到
+'on': record
+visible: true

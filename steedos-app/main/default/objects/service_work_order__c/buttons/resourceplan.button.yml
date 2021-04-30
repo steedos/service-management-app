@@ -1,0 +1,5 @@
+name: resourceplan
+is_enable: true
+label: 派工
+'on': record
+visible: true
